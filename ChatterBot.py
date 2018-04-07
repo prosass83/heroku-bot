@@ -5,7 +5,7 @@ import json
 import time
 
 from dotenv import load_dotenv
-load_dotenv()
+load_dotenv(os.path.join(os.path.dirname(__file__), '.env'))
 
 consumer_key = os.getenv("CONSUMER_KEY")
 consumer_secret = os.getenv("CONSUMER_SECRET")
