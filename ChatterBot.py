@@ -5,7 +5,6 @@ import time
 import json
 from textblob import TextBlob
 import matplotlib.pyplot as plt
-plt.use('Agg')
 import seaborn as sns
 import pandas as pd
 import numpy as np
